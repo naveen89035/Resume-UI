@@ -1,0 +1,173 @@
+body{
+   font: 600 sans-serif;
+   overflow-x: hidden;
+}
+
+.common_shadow{
+    filter: drop-shadow(0px 2px 11px white);
+}
+
+.mobile-nav-active #header {
+    left: 0;
+  }
+
+.objective{
+    width: 100%;
+    background-image: url("../images/background\ \(2\).jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 770px;
+    
+}
+
+a.nav_link {
+    text-decoration: none;
+    padding: 31px 38px;
+}
+
+.name{
+    color: white;
+    margin-top: 25%;
+    margin-left: 20%;
+}
+
+.nav_bar_header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+    background-color: black;
+}
+
+.active{
+    color: brown !important;
+}
+
+.BasicDetails{
+    width: 100%;
+    background-image: url("../images/BDbackground.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 770px;
+    /* height: 100%; */
+}
+
+.f-25{
+    font-size: 25px;
+}
+
+.c-white{
+    color: white;
+}
+
+.c-green{
+    color: 339843;
+}
+
+.Skills{
+    width: 100%;
+    background-image: url("../images/skills_background.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 870px;
+    /* height: 100vh; */
+}
+
+.work_experience{
+    width: 100%;
+    background-image: url("../images/work_exp_background.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 770px;
+}
+
+.edu_details{
+    width: 100%;
+    background-image: url("../images/edu_details_background.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 770px;
+}
+
+.golang_percent{
+    width: 100%;
+    background: #339843;
+    border-radius: 20px;
+    padding: 1px 12px;
+    border: 2px 3px white;
+    box-shadow: 0px 0px 9px 2px;
+    box-shadow: 2px white;
+}
+
+.bootsrtap_percent{
+    width: 90%;
+    background: #339843;
+    border-radius: 20px;
+    padding: 1px 12px;
+    border: 2px 3px white;
+    box-shadow: 0px 0px 9px 2px;
+    box-shadow: 2px white;
+}
+
+
+.react_percent{
+    width: 75%;
+    background: #339843;
+    border-radius: 20px;
+    padding: 1px 12px;
+    border: 2px 3px white;
+    box-shadow: 0px 0px 9px 2px;
+    box-shadow: 2px white;
+}
+
+
+.com_skill{
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.skills_font{
+    font-weight: 700;
+    font-size: x-large;
+}
+
+.ed_det_row{
+    margin-top: 10%;
+}
+
+.list-group{
+    position: sticky;
+    top: 0;
+    right: 0;
+}
+
+.list-group-item{
+    border: none;
+    padding: 36% 28%;
+}
+
+.p_none{
+    padding: 0px !important;
+}
+
+.nav_bg{
+    background: #2888ff;
+    color: white;
+    font-weight: 700;
+}
+
+.f-7{
+    font-weight: 700;
+}
