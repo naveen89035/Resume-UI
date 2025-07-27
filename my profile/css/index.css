@@ -1,173 +1,139 @@
-body{
-   font: 600 sans-serif;
-   overflow-x: hidden;
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    overflow-x: hidden;
 }
 
-.common_shadow{
+.common_shadow {
     filter: drop-shadow(0px 2px 11px white);
 }
 
-.mobile-nav-active #header {
-    left: 0;
-  }
-
-.objective{
+.objective {
     width: 100%;
-    background-image: url("../images/background\ \(2\).jpg");
+    background-image: url("../images/background.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 770px;
-    
+    min-height: 700px;
 }
 
-a.nav_link {
-    text-decoration: none;
-    padding: 31px 38px;
-}
-
-.name{
-    color: white;
-    margin-top: 25%;
-    margin-left: 20%;
-}
-
-.nav_bar_header{
-    position: sticky;
-    top: 0;
-    width: 100%;
-    z-index: 9;
-    background-color: black;
-}
-
-.active{
-    color: brown !important;
-}
-
-.BasicDetails{
+.BasicDetails {
     width: 100%;
     background-image: url("../images/BDbackground.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 770px;
-    /* height: 100%; */
+    min-height: 700px;
 }
 
-.f-25{
-    font-size: 25px;
-}
-
-.c-white{
-    color: white;
-}
-
-.c-green{
-    color: 339843;
-}
-
-.Skills{
+.Skills {
     width: 100%;
     background-image: url("../images/skills_background.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 870px;
-    /* height: 100vh; */
+    min-height: 800px;
 }
 
-.work_experience{
+.work_experience {
     width: 100%;
     background-image: url("../images/work_exp_background.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 770px;
+    min-height: 700px;
 }
 
 .edu_details{
     width: 100%;
-    background-image: url("../images/edu_details_background.jpg");
+    background-image: url("../images/education_backgroung.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 770px;
+    min-height: 700px;
 }
 
-.golang_percent{
+.projects{
     width: 100%;
-    background: #339843;
-    border-radius: 20px;
-    padding: 1px 12px;
-    border: 2px 3px white;
-    box-shadow: 0px 0px 9px 2px;
-    box-shadow: 2px white;
+    background-image: url("../images/projects_background.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
 }
 
-.bootsrtap_percent{
-    width: 90%;
-    background: #339843;
-    border-radius: 20px;
-    padding: 1px 12px;
-    border: 2px 3px white;
-    box-shadow: 0px 0px 9px 2px;
-    box-shadow: 2px white;
+.nav_bar_header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+    background-color: #000;
 }
 
-
-.react_percent{
-    width: 75%;
-    background: #339843;
-    border-radius: 20px;
-    padding: 1px 12px;
-    border: 2px 3px white;
-    box-shadow: 0px 0px 9px 2px;
-    box-shadow: 2px white;
+.nav-link {
+    color: white !important;
+    font-weight: 700;
+    padding: 10px 20px !important;
 }
 
+.nav-link.active {
+    color: #8B4513 !important;
+}
 
-.com_skill{
+.name {
+    color: white;
+    margin-top: 15%;
+    margin-left: 10%;
+}
+
+.f-25 {
+    font-size: 25px;
+}
+
+.c-white {
+    color: white;
+}
+
+.com_skill {
     width: 100%;
     background-color: white;
     border-radius: 20px;
     margin-bottom: 15px;
 }
 
-.skills_font{
+.golang_percent { width: 100%; background: #339843; border-radius: 20px; padding: 2px 12px; }
+.python_percent { width: 100%; background: #339843; border-radius: 20px; padding: 2px 12px; }
+.php_percent { width: 90%; background: #339843; border-radius: 20px; padding: 2px 12px; }
+.flask_percent { width: 90%; background: #339843; border-radius: 20px; padding: 2px 12px; }
+.django_percent { width: 90%; background: #339843; border-radius: 20px; padding: 2px 12px; }
+.codeigniter_percent { width: 90%; background: #339843; border-radius: 20px; padding: 2px 12px; }
+.mysql_percent { width: 100%; background: #339843; border-radius: 20px; padding: 2px 12px; }
+.mongodb_percent { width: 100%; background: #339843; border-radius: 20px; padding: 2px 12px; }
+.postgresql_percent { width: 80%; background: #339843; border-radius: 20px; padding: 2px 12px; }
+.grpc_percent { width: 75%; background: #339843; border-radius: 20px; padding: 2px 12px; }
+.tools_percent { width: 80%; background: #339843; border-radius: 20px; padding: 2px 12px; }
+.html_percent { width: 100%; background: #339843; border-radius: 20px; padding: 2px 12px; }
+.javascript_percent { width: 90%; background: #339843; border-radius: 20px; padding: 2px 12px; }
+.bootstrap_percent { width: 90%; background: #339843; border-radius: 20px; padding: 2px 12px; }
+.jquery_percent { width: 90%; background: #339843; border-radius: 20px; padding: 2px 12px; }
+
+
+
+.skills_font {
     font-weight: 700;
     font-size: x-large;
 }
 
-.ed_det_row{
-    margin-top: 10%;
+.ed_det_row {
+    margin-top: 5%;
 }
 
-.list-group{
-    position: sticky;
-    top: 0;
-    right: 0;
-}
-
-.list-group-item{
-    border: none;
-    padding: 36% 28%;
-}
-
-.p_none{
-    padding: 0px !important;
-}
-
-.nav_bg{
-    background: #2888ff;
-    color: white;
-    font-weight: 700;
-}
-
-.f-7{
-    font-weight: 700;
+.p_none {
+    padding: 0 !important;
 }
